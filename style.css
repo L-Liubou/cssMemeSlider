@@ -174,3 +174,24 @@ body {
 #slider-radio4:checked ~ .slider__navigation .slider__dots #dot4:hover .button {
     border: 0.125rem solid #bbb;
 }
+
+@media (max-width: 568px) {
+    h1 {
+        text-align:center;
+        font-size: 1.5rem;
+    }
+
+    .slider__navigation {
+        flex-direction: column-reverse;
+        align-items:center;
+        margin-top: 1.5rem;
+    }
+
+    .slider__text {
+        margin-top: 1.25rem;
+    }
+
+    .slider__caption {
+        width: 100%;
+    }
+}
