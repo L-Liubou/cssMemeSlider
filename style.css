@@ -23,6 +23,12 @@ body {
     max-width: 900px;
 }
 
+.slider__title {
+    margin-bottom: 2rem;
+    color: #464343;
+    font-size: 2rem;
+}
+
 .slider {
     display: flex;
     flex-direction: column;
