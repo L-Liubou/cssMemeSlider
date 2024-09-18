@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeSlider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="slider__title">CSS Image Slider</h1>
+        <div class="slider">
+            <input type="radio" name="radio" class="slider__radio" id="slider-radio1" checked>
+            <input type="radio" name="radio" class="slider__radio" id="slider-radio2">
+            <input type="radio" name="radio" class="slider__radio" id="slider-radio3">
+            <input type="radio" name="radio" class="slider__radio" id="slider-radio4">
+            <div class="slider__slide-container">
+                <div class="slider--slide-slides">
+                    <div class="slider__slide" id="slide1">
+                        <img src="images/Interstellar.jpg" alt="Interstellar">
+                    </div>
+                    <div class="slider__slide" id="slide2">
+                        <img src="images/Lord.jpg" alt="Lord of the Rings">
+                    </div>
+                    <div class="slider__slide" id="slide3">
+                        <img src="images/Once.jpg" alt="Once Upon a Time">
+                    </div>
+                    <div class="slider__slide" id="slide4">
+                        <img src="images/The Shining.jpg" alt="The Shining">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__navigation">
+                <div class="slider__text">
+                    <div class="slider__caption" id="caption1">Герой, улетевший в космос, чтобы спасти всё человечество, получает послание от своей семьи, для членов которой уже прошли годы. Так появился мем, который означает, что человек думает о чём-то очень грустном: от цен на фисташки до пролетающей жизни.</div>
+                    <div class="slider__caption" id="caption2">Пожалуй, самый известный мем — Боромир, который утверждает: «Нельзя так просто взять и...» — дальше подставьте нужное. И это тот редкий случай, когда цитата почти соответствует оригиналу. Там герой говорил, что нельзя просто пойти в Мордор.</div>
+                    <div class="slider__caption" id="caption3">Леонардо Ди Каприо не комедийный актёр, но он подарил зрителям множество мемных сцен. А в «Однажды в… Голливуде» герой в его исполнении видит себя в небольшой роли на экране и радуется этому. Как и мы всегда радуемся очередному мему с актёром.</div>
+                    <div class="slider__caption" id="caption4">Момент, когда персонаж пробивает топором дверь, — один из самых узнаваемых в хоррорах. А экспрессия Шелли Дюваль уже сама по себе превращает эпизод в мем. Вот так мы все выглядим, когда в нашу жизнь ломится что-то нежеланное.</div>
+                </div>
+                <div class="slider__dots">
+                    <label for="slider-radio1" id="dot1">
+                        <span class="button"></span>
+                    </label>
+                    <label for="slider-radio2" id="dot2">
+                        <span class="button"></span>
+                    </label>
+                    <label for="slider-radio3" id="dot3">
+                        <span class="button"></span>
+                    </label>
+                    <label for="slider-radio4" id="dot4">
+                        <span class="button"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
